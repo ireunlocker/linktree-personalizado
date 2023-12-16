@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+}
+
+.fa-user {
+    font-size: 20px;
+    color: white;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #2F394E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-button svg {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #eb0052;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.tile {
+    width: 100%;
+    background-color: #eb0052;
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
+.tile-share-button {
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #2F394E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-share-button svg {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.image-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.tile .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+    background-color: #2F394E;
+    border-radius: 50%;
+}
+
+.tile .icon i {
+    font-size: 24px;
+    color: white;
+}
+
+footer {
+    background-color: white;
+    color: #2F394E;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+footer a {
+    color: #2F394E;
+}
